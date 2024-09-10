@@ -2,7 +2,7 @@
 //#include <avr/io.h>
 //#include <util/delay.h>
 //#include <stdio.h>
-#include "LCD.h"
+#include "lcd.h"
 
 int main(void)
 {
@@ -11,9 +11,9 @@ int main(void)
 	LCD_WriteString("Hello AVR");
 	LCD_GotoXY(1,0);
 	LCD_WriteString("Good ATMega128A");
-    /* Replace with your application code */
-    while (1) 
-    {
-    }
+	/* Replace with your application code */
+	while (1)
+	{
+	}
 }
 

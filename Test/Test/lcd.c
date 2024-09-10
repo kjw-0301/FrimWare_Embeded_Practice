@@ -1,4 +1,5 @@
-﻿#include "LCD.h"
+﻿#include "lcd.h"
+
 
 void LCD_Data(uint8_t data)
 {
@@ -8,7 +9,7 @@ void LCD_Data(uint8_t data)
 //void LCD_Data_4bit(uint8_t data);
 void LCD_WritePin()
 {
-	LCD_RW_PORT &= ~(1<<LCD_RW);	//RW핀 Low -> ㅆ
+	LCD_RW_PORT &= ~(1<<LCD_RW);	//RW핀 Low ->
 }
 void LCD_ReadPin()
 {

@@ -1,8 +1,9 @@
-﻿#ifdef LCD_H_
+﻿#ifdef	LCD_H_
 #define LCD_H_
 
 #define F_CPU 16000000UL
 #include <avr/io.h>
+#include <stdint.h>
 #include <stdio.h>
 #include <util/delay.h>
 
